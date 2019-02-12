@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#img{
+  padding: 10px;
+  border: 1px solid gray;
+  margin-top: 22px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#row{
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#in-stock{
+  color: green;
+}
+
+#out-of-stock{
+  color: red;
+}
+
+.cart-product img {
+  width: 100px;
+  height: 100px;
+}
+.cart-product{
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+#product {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+}
