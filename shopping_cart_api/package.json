@@ -1,0 +1,27 @@
+{
+  "name": "shopping_cart_api",
+  "version": "1.0.0",
+  "description": "shopping cart",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "coverage": "istanbul cover _mocha test/*"
+  },
+  "author": "sharath",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "istanbul": "^1.1.0-alpha.1"
+  }
+}
